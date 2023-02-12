@@ -35,6 +35,8 @@ function employeeCard(employee) {
     }
 }
 
+
+// GNERATE HTML
 function generateHTML(data) {
     const employeeCards = [];
 
