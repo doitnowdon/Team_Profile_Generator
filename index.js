@@ -162,7 +162,7 @@ const addEmployee = (data) => {
             employees.push(engineer);
             addEmployee(addMoreEmp);
         })
-    } else if (data === 'ADD INTERN '){
+    } else if (data === 'ADD INTERN'){
         return inquirer.prompt([
             {
                 type: `input`,
