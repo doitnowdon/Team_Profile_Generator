@@ -1,0 +1,30 @@
+{
+    "name": "Team_Profile_Generator",
+    "version": "1.0.0",
+    "description": "a profile generator to be able to see everyone on your team and how they are classified",
+    "main": "index.js",
+    "scripts": {
+      "test": "jest"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/doitnowdon/Team_Profile_Generator.git"
+      },
+      "keywords": [
+        "OOP",
+        "jest"
+      ],
+      "author": "Don Ishan",
+      "license": "MIT",
+      "bugs": {
+        "url": "https://github.com/doitnowdon/Team_Profile_Generator/issues"
+      },
+      "homepage": "https://github.com/doitnowdon/Team_Profile_Generator#readme",
+      "devDependencies": {
+        "jest": "^27.5.1"
+      },
+
+    "dependencies": {
+      "inquirer": "^8.2.2"
+    }
+  }
