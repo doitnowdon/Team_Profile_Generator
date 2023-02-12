@@ -1,9 +1,12 @@
+
+// EmployeeCard Functions start 
+
 function employeeCard(employee) {
     if (employee.getRole()==='Engineer') {
         return `
         <div class="shadow col-3 m-2">
             <div>
-                <h2 class="text-center bg-secondary text-light p-2">
+                <h2 class="text-center bg-info text-light p-2">
                     ${employee.getName()}<br>
                     Engineer
                 </h2>
@@ -17,7 +20,7 @@ function employeeCard(employee) {
         return `
         <div class="shadow col-3 m-2">
             <div>
-                <h2 class="text-center bg-success text-light p-2">
+                <h2 class="text-center bg-secondary text-light p-2">
                     ${employee.getName()}<br>
                     Intern
                 </h2>
@@ -59,7 +62,7 @@ function generateHTML(data) {
             <div class="row justify-content-evenly p-3">
                 <div class="shadow col-3 m-2">
                     <div>
-                        <h2 class="text-center bg-danger text-light p-2">
+                        <h2 class="text-center bg-warning text-light p-2">
                             ${data[0].getName()}<br>
                             Manager
                         </h2>
@@ -76,6 +79,8 @@ function generateHTML(data) {
     `;
 }
 
+
+// HTML CLOSE
 function htmlFinish() {
     const html = `  </div>
     </main>
@@ -88,8 +93,10 @@ function htmlFinish() {
             console.log(err);
         };
     });
-    console.log("Your file has been generated! Go check the dist folder. Thank you!");
+    console.log("FILE HAS BEEN GENERATED AND CHECKED...!");
 }
+
+
 
 
 module.exports = generateHTML, htmlFinish;
